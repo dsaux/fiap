@@ -12,11 +12,11 @@ def hello():
 #with open(pkl_filename, 'rb') as file:
 # pickle_model = pickle.load(file)
 
-vLista = []
-while True:
- input_str = input("Informe os 4 valores separados por virgula: ")
- str_List = input_str.split(',')
- values = [float(item) for item in str_list]
+#vLista = []
+#while True:
+input_str = input("Informe os 4 valores separados por virgula: ")
+# str_List = input_str.split(',')
+# values = [float(item) for item in str_list]
 # res = pickle_model.predict([values])
 # print(res)
-values
+# values
