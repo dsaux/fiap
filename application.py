@@ -8,7 +8,7 @@ def hello():
     return "Hola Python 2!"
 
 # import pickle
-#input("Informe os 4 valores separados por virgula: ")
+input("Informe os 4 valores separados por virgula: ")
 #pkl_filename = '/notebook/pickle_model.pkl'
 #with open(pkl_filename, 'rb') as file:
 # pickle_model = pickle.load(file)
