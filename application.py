@@ -1,5 +1,8 @@
-from flask import Flask
-import pickle
+from flask import Flask, pickle
+#import pickle
+
+app = Flask(_name_)
+@app.route('/')
 
 pkl_filename = 'pickle_model.pkl'
 with open(pkl_filename, 'rb') as file:
