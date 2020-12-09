@@ -1,6 +1,8 @@
 from flask import Flask
-app = Flask(__name__)
 input("Informe os 4 valores separados por virgula: ")
+
+app = Flask(__name__)
+
 @app.route("/")
 import test
 
