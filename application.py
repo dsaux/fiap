@@ -2,13 +2,13 @@ from flask import Flask
 app = Flask(__name__)
 
 import test
+import pickle
 
 @app.route("/")
 def hello():
-    return "Hola Python!"
-import pickle
+    return "Hola Python 2!"
 
-pkl_filename = 'pickle_model.pkl'
+pkl_filename = '/notebook/pickle_model.pkl'
 with open(pkl_filename, 'rb') as file:
  pickle_model = pickle.load(file)
 
