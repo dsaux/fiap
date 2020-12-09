@@ -1,9 +1,9 @@
 from flask import Flask
 app = Flask(__name__)
-
-import test
 input("Informe os 4 valores separados por virgula: ")
 @app.route("/")
+import test
+
 def hello():
     return "Hola Python 2!"
 
