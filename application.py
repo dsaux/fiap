@@ -4,8 +4,8 @@ app = Flask(__name__)
 #import test
 
 @app.route("/")
-#def hello():
-#    return "Hola Python!"
+def hello():
+    return "Hola Python!"
 import pickle
 
 pkl_filename = 'pickle_model.pkl'
