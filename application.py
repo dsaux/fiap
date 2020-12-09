@@ -8,7 +8,7 @@ app = Flask(__name__)
 #    return "Hola Python!"
 import pickle
 
-pkl_filename = '/notebook/pickle_model.pkl'
+pkl_filename = 'notebook/pickle_model.pkl'
 with open(pkl_filename, 'rb') as file:
  pickle_model = pickle.load(file)
 
